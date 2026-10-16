@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CR" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_screen</item>
+        <item name="android:colorAccent">@color/cr_accent</item>
+        <item name="android:colorPrimary">@color/cr_primary</item>
+        <item name="android:textColorPrimary">@color/cr_text</item>
+        <item name="android:textColorSecondary">@color/cr_text_dim</item>
+        <item name="android:navigationBarColor">@color/cr_bg</item>
+        <item name="android:statusBarColor">@color/cr_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

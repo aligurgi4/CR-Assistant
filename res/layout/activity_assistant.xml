@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_screen"
+    android:gravity="center_horizontal"
+    android:padding="24dp">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_avatar"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:contentDescription="CR"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/ask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="چطور می‌تونم کمکت کنم؟"
+        android:textColor="@color/cr_text"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/heard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_heard"
+        android:gravity="center"
+        android:minHeight="90dp"
+        android:padding="18dp"
+        android:text="🎧 گوش می‌کنم…"
+        android:textColor="@color/cr_text_dim"
+        android:textSize="16sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnTalk"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_mic"
+        android:stateListAnimator="@null"
+        android:text="🎤"
+        android:textSize="52sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="برای صحبت دکمه رو بزن"
+        android:textColor="@color/cr_text_dim"
+        android:textSize="13sp"/>
+</LinearLayout>

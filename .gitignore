@@ -1,0 +1,31 @@
+# Android build
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# Gradle
+.gradle/
+local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Logs
+*.log
+captures/
+
+# Keystore (خیلی مهم - امنیتی)
+*.jks
+*.keystore
+debug.keystore
+
+# مدل حجیم Vosk (جدا دانلود می‌شه)
+assets/vosk-model-*/

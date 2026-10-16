@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CR</string>
+    <string name="accessibility_description">سرویس CR برای انجام دستور داخل برنامه‌های دیگر (مثل زدن دکمهٔ تماس)</string>
+</resources>

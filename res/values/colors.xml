@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cr_bg">#FF0C0E1C</color>
+    <color name="cr_bg2">#FF161A38</color>
+    <color name="cr_card">#FF1D2244</color>
+    <color name="cr_card2">#FF272D57</color>
+    <color name="cr_primary">#FF6B5CFF</color>
+    <color name="cr_primary2">#FF2AC7FF</color>
+    <color name="cr_accent">#FF00E0B8</color>
+    <color name="cr_text">#FFF5F7FF</color>
+    <color name="cr_text_dim">#FFA6ADD1</color>
+    <color name="cr_warn">#FFFFB84D</color>
+</resources>
