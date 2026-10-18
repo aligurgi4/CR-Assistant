@@ -1,3 +1,5 @@
+<img width="720" height="1234" alt="IMG_۲۰۲۶۱۰۱۸_۰۶۵۲۳۵" src="https://github.com/user-attachments/assets/d6a2da47-547f-4b94-b7cf-3d7e809af40e" />
+
 # CR-Assistant
 در این پروژه من قصد داشتم که یک دستیار صوتی آفلاین درست کنم.
 
